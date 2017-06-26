@@ -1,0 +1,13 @@
+[package]
+name = "snazzy"
+version = "0.1.0"
+authors = ["Dan Burkert <dan@danburkert.com>"]
+description = "Example project using prost-build"
+
+[dependencies]
+bytes = "0.4"
+prost = "0.1.0"
+prost-derive = "0.1.0"
+
+[build-dependencies]
+prost-build = "0.1.0"
