@@ -6,8 +6,8 @@ description = "Example project using prost-build"
 
 [dependencies]
 bytes = "0.4"
-prost = "0.1.0"
-prost-derive = "0.1.0"
+prost = "0.2"
+prost-derive = "0.2"
 
 [build-dependencies]
-prost-build = "0.1.0"
+prost-build = "0.2"
