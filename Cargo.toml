@@ -3,11 +3,11 @@ name = "snazzy"
 version = "0.1.0"
 authors = ["Dan Burkert <dan@danburkert.com>"]
 description = "Example project using prost-build"
+edition = "2018"
 
 [dependencies]
 bytes = "0.4"
-prost = "0.2"
-prost-derive = "0.2"
+prost = "0.5"
 
 [build-dependencies]
-prost-build = "0.2"
+prost-build = "0.5"

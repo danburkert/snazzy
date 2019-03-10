@@ -1,7 +1,3 @@
-extern crate prost;
-#[macro_use]
-extern crate prost_derive;
-
 use std::io::Cursor;
 
 use prost::Message;
