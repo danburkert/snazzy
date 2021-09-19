@@ -1,5 +1,3 @@
-use std::io::Cursor;
-
 use prost::Message;
 
 // Include the `items` module, which is generated from items.proto.
@@ -23,5 +21,5 @@ pub fn serialize_shirt(shirt: &items::Shirt) -> Vec<u8> {
 }
 
 pub fn deserialize_shirt(buf: &[u8]) -> Result<items::Shirt, prost::DecodeError> {
-    items::Shirt::decode(&mut Cursor::new(buf))
+    items::Shirt::decode(buf)
 }
